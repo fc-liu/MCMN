@@ -1,0 +1,7 @@
+beautifulsoup4==4.10.0
+# fewshot.egg==info
+numpy==1.20.2
+prettytable==2.1.0
+torch==1.10.2
+tqdm==4.60.0
+transformers==4.8.2

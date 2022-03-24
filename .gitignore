@@ -1,0 +1,11 @@
+/_processed_data/*
+.vscode/*
+/data/*
+/checkpoint/*
+*/__pycache__/*
+/__pycache__/*
+/pretrain_data_process/*
+!/pretrain_data_process/preprocess.py
+!/pretrain_data_process/sen_to_triplet.py
+/output/*
+!checkpoint/fewrel/pretrain
