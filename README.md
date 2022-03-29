@@ -1,9 +1,10 @@
 # Pre-training to Match for Unified Low-shot Relation Extraction
+Codes for our ACL 2022 paper: <b>Pre-training to Match for Unified Low-shot Relation Extraction.<b> [[Arxiv](https://arxiv.org/abs/2203.12274)]
 
+## Usage
 the data is on FewRel official page https://github.com/thunlp/FewRel,
 please download and put into ./data directory.
 
-## Usage
 ### prerequirement
 - Create a Python 3 environment (3.7 or greater), eg using `conda create --name MCMN python=3.9`
 - Activate the environment: `conda activate MCMN`
