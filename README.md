@@ -16,7 +16,7 @@ please download and put into ./data directory.
 
 * For detail usage of Flex, please refer to https://github.com/allenai/flex
 ### FLEX data preparation
-- replace the file `flex/fewshot/challenges/__init__.py` with file `taxon_prompt_refactor/challenge/__init__.py`(This step removes other unrelated tasks in FLEX and only keeps FewRel tasks.）
+- replace the file `flex/fewshot/challenges/__init__.py` with file `__ROOT__/challenge/__init__.py`(This step removes other unrelated tasks in FLEX and only keeps FewRel tasks.）
 - Make dataset:
 ```bash
 python -c "import fewshot; fewshot.make_challenge('flex');"
